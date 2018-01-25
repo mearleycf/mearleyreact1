@@ -12,11 +12,27 @@ class App extends Component {
         </header>
         <p className="App-intro">
           <ol>
-            <li>Paint six dreadball teams</li>
+            <li>{this.listItem()}</li>
           </ol>
         </p>
       </div>
     );
+  }
+  class PaintList {
+    constructor(itemName, numberOfModels){
+      _itemName = itenName;
+      _numberOfModels = numberOfModels;
+    }
+    itemName(){
+      return this._itemName;
+    }
+    numberOfModels(){
+      return this._numberOfModels;
+    }
+
+    listItem(){
+      return `${itemName()}: ${numberOfModels()} models`
+    }
   }
 }
 
