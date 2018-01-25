@@ -33,7 +33,8 @@ class App extends Component {
     listItem(){
       return `${itemName()}: ${numberOfModels()} models`
     }
-  }
+  };
+  let neobots = new PaintList('Dreadball NeoBots', 15);
 }
 
 export default App;
