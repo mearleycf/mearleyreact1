@@ -20,7 +20,7 @@ class App extends Component {
   }
   class PaintList {
     constructor(itemName, numberOfModels){
-      _itemName = itenName;
+      _itemName = itemName;
       _numberOfModels = numberOfModels;
     }
     itemName(){
