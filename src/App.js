@@ -31,7 +31,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
           <ol>
-            <li>{this.listItem()}</li>
+            // <li>{this.listItem()}</li>
           </ol>
         </p>
       </div>
