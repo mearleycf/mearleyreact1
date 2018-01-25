@@ -18,6 +18,7 @@ class App extends Component {
       </div>
     );
   }
+}
   class PaintList {
     constructor(itemName, numberOfModels){
       _itemName = itemName;
@@ -34,7 +35,6 @@ class App extends Component {
       return `${itemName()}: ${numberOfModels()} models`
     }
   };
-  let neobots = new PaintList('Dreadball NeoBots', 15);
-}
+    let neobots = new PaintList('Dreadball NeoBots', 15);
 
 export default App;
