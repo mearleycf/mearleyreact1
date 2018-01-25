@@ -3,6 +3,25 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  //   class PaintList {
+  //   constructor(itemName, numberOfModels){
+  //     _itemName = itemName;
+  //     _numberOfModels = numberOfModels;
+  //   }
+  //   itemName(){
+  //     return this._itemName;
+  //   }
+  //   numberOfModels(){
+  //     return this._numberOfModels;
+  //   }
+
+  //   listItem(){
+  //     return `${itemName()}: ${numberOfModels()} models`
+  //   }
+  // }
+
+  // let neobots = new PaintList('Dreadball NeoBots', 15);
+  
   render() {
     return (
       <div className="App">
@@ -19,22 +38,5 @@ class App extends Component {
     );
   }
 }
-  class PaintList {
-    constructor(itemName, numberOfModels){
-      _itemName = itemName;
-      _numberOfModels = numberOfModels;
-    }
-    itemName(){
-      return this._itemName;
-    }
-    numberOfModels(){
-      return this._numberOfModels;
-    }
-
-    listItem(){
-      return `${itemName()}: ${numberOfModels()} models`
-    }
-  };
-    let neobots = new PaintList('Dreadball NeoBots', 15);
 
 export default App;
